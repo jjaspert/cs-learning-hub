@@ -1,0 +1,147 @@
+export typr Topic = {
+    id: number;
+    slug: string;
+    title: string;
+    description: string;
+    status: "done" | "active" | "locked";
+    languages: string [];
+};
+
+export const beginnerTopics: Topic[] = [
+    {
+        id: 1,
+        slug: "ide-and-first-program",
+        title: "IDE & First Program",
+        description: "Set up yopur environment and write your first Hello World",
+        status: "done",
+        languages: ["C", "Python", "Javascript", "Java", "C#"],
+    },
+    {
+        id: 2,
+        slug: "output-comments-functions",
+        title: "Output, Comments & Errors",
+        description: "Print the screen, write comments, and read error messages",
+        status: "done",
+        languages: ["C", "Python", "Javascript", "Java", "C#"],
+    },
+    {
+        id: 3,
+        slug: "variables-and-types",
+        title: "Variables & Data Types",
+        description: "Store and work with different kinds of data",
+        status: "done",
+        languages: ["C", "Python", "Javascript", "Java", "C#"], 
+    },
+    {
+        id: 4,
+        slug: "user-input",
+        title: "User Input & Operations",
+        description: "Read input from the user and perform operations on it",
+        status: "locked",
+        languages: ["C", "Python", "Javascript", "Java", "C#"],
+    },
+     {
+    id: 5,
+    slug: "number-conversion",
+    title: "Number Conversion",
+    description: "Convert between different number systems and types",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java"],
+  },
+  {
+    id: 6,
+    slug: "unix-commands",
+    title: "Unix Commands",
+    description: "Navigate and work with files using the terminal",
+    status: "locked",
+    languages: ["Bash"],
+  },
+  {
+    id: 7,
+    slug: "strings-and-output",
+    title: "Strings & Formatted Output",
+    description: "Work with text and format output cleanly",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java", "C#"],
+  },
+  {
+    id: 8,
+    slug: "conditionals",
+    title: "Conditionals (if / switch)",
+    description: "Make decisions in your code using if statements and switch",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java", "C#"],
+  },
+  {
+    id: 9,
+    slug: "boolean-expressions",
+    title: "Boolean Expressions",
+    description: "Understand true/false logic and combine conditions",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java", "C#"],
+  },
+  {
+    id: 10,
+    slug: "loops",
+    title: "Loops",
+    description: "Repeat actions using for, while, and do-while loops",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java", "C#"],
+  },
+  {
+    id: 11,
+    slug: "random-numbers",
+    title: "Random Number Generation",
+    description: "Generate random numbers for games and simulations",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java"],
+  },
+  {
+    id: 12,
+    slug: "math-functions",
+    title: "Math Functions",
+    description: "Use built-in math operations like floor, ceil, and power",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java", "C#"],
+  },
+  {
+    id: 13,
+    slug: "functions",
+    title: "Functions",
+    description: "Write reusable blocks of code that do one thing well",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java", "C#"],
+  },
+  {
+    id: 14,
+    slug: "1d-arrays",
+    title: "1D Arrays & Data Processing",
+    description: "Store lists of data and process them with loops",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java", "C#"],
+  },
+  {
+    id: 15,
+    slug: "2d-arrays",
+    title: "2D Arrays",
+    description: "Work with grids and tables of data",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java", "C#"],
+  },
+  {
+    id: 16,
+    slug: "file-io",
+    title: "File Input & Output",
+    description: "Read from and write to files on your computer",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java", "C#"],
+  },
+  {
+    id: 17,
+    slug: "sorting-searching",
+    title: "Sorting & Searching",
+    description: "Organize and find data using common algorithms",
+    status: "locked",
+    languages: ["C", "Python", "JavaScript", "Java", "C#"],
+  },
+];
